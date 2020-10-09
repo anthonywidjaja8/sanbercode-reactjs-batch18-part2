@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+}
+
+.formTemplate {
+  text-align: center;
   border-style: solid;
   border-radius: 20px;
   margin-left: 30%;
   margin-right: 30%;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .App-logo {
