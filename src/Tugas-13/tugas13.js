@@ -129,15 +129,15 @@ const FruitStoreAPI = () => {
                 <table>
                     <tr>
                         <td>Masukkan nama buah:</td>
-                        <td><input type="text" id="namaBuah" value={inputDataBuah.name} onChange={handleChange} /></td>
+                        <td><input type="text" id="namaBuah" required value={inputDataBuah.name} onChange={handleChange} /></td>
                     </tr>   
                     <tr>
                         <td>Masukkan harga buah:</td>
-                        <td><input type="text" id="hargaBuah" value={inputDataBuah.price} onChange={handleChange} /></td>
+                        <td><input type="text" id="hargaBuah" required value={inputDataBuah.price} onChange={handleChange} /></td>
                     </tr>
                     <tr>
                         <td>Masukkan berat buah (gram):</td>
-                        <td><input type="text" id="beratBuah" value={inputDataBuah.weight} onChange={handleChange} /></td>
+                        <td><input type="text" id="beratBuah" required value={inputDataBuah.weight} onChange={handleChange} /></td>
                     </tr>
                 </table>
                 <input type="submit" value="Submit" />

@@ -26,7 +26,7 @@ class TableFruitPrice extends React.Component {
             <div>
                 <h1 style={{ textAlign: "center" }}>Tabel Harga Buah</h1>
                 <table style={{ margin: "0px auto", width: "700px", 
-                border: "1px solid black", 'margin-bottom': "1%" }}>
+                border: "1px solid black", 'marginBottom': "1%" }}>
                     <tr>
                         <TableFruitPriceHeader text="Nama" />
                         <TableFruitPriceHeader text="Harga" />
